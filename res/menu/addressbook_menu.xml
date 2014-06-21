@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    	menu folder needs to be created manually, predefined in xml and inlate late in code
+    	note the ic_menu_add/ic_delete icons are predefined		titleCondensed is used when the string is too long to display -->
+    <item
+        android:id="@+id/addCOntactItem"
+        android:alphabeticShortcut="e"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menuitem_add_contact"
+        android:titleCondensed="@string/menuitem_add_contact"/>
+
+</menu>
