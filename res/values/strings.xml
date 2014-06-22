@@ -1,5 +1,12 @@
 <resources>
 
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Contact Name is Required</string>
+    <string name="errorMessage">You must enter a contact name</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="confirmTitle">Are You Sure?</string>
+    <string name="confirmMessage">      This will permanently delete the contact</string>
     <string name="app_name">AddressBook</string>
     <string name="label_name">name</string>
     <string name="label_phone">phone</string>
