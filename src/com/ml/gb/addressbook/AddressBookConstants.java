@@ -1,4 +1,4 @@
-package com.ml.addressbook;
+package com.ml.gb.addressbook;
 
 public class AddressBookConstants {
 	public static final String NAME = "name";
@@ -7,4 +7,5 @@ public class AddressBookConstants {
 	public static final String STREET = "street";
 	public static final String CITY = "city";
 	public static final String ROW_ID = "row_id";
+	public static final String TABLE_NAME = "contacts";
 }

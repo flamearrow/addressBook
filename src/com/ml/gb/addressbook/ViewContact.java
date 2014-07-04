@@ -1,4 +1,4 @@
-package com.ml.addressbook;
+package com.ml.gb.addressbook;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -109,7 +109,7 @@ public class ViewContact extends Activity {
 				});
 
 		builder.setNegativeButton(R.string.button_cancel, null);
-
+		builder.show();
 	}
 
 	private class LoadContactTask extends AsyncTask<Long, Object, Cursor> {

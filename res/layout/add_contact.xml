@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:padding="5dp" >
 
-        <!-- imeOption actioNext will focut on the next field after current filed is filled -->
+        <!-- imeOption actioNext will focus on the next field after current filed is filled -->
 
         <EditText
             android:id="@+id/nameEditText"

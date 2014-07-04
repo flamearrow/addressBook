@@ -1,4 +1,4 @@
-package com.ml.addressbook;
+package com.ml.gb.addressbook;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -24,6 +24,7 @@ public class AddressBook extends ListActivity {
 	// Cusor is used for db
 	private CursorAdapter contactAdapter;
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -38,7 +39,7 @@ public class AddressBook extends ListActivity {
 	}
 
 	// each time app is brought to foreground, create an AsyncTask and execute
-	// it queries the db and inserts all entries into list in a seperate thread
+	// it queries the db and inserts all entries into list in a separate thread
 	@Override
 	protected void onResume() {
 		super.onResume();
